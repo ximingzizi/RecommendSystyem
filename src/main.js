@@ -13,7 +13,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
 // 配置服务器请求前缀
-axios.defaults.baseURL = "https://recommendserver-920l.onrender.com/";
+axios.defaults.baseURL = "https://recommendserver-920l.onrender.com";
 // 设置cookie,session跨域配置,后端允许源必须写明
 axios.defaults.withCredentials=true;
 // 设置post请求数据格式
