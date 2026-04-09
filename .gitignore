@@ -12,3 +12,10 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
