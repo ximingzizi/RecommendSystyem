@@ -99,7 +99,7 @@
 </template>
 
 <script>
-var API_BASE = 'http://127.0.0.1:8000'
+var API_BASE = 'https://recommendserver-920l.onrender.com'
 
 export default {
   name: 'ResultsPage',
